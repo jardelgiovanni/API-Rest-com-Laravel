@@ -1,0 +1,32 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Escola API",
+        "version": "1.0"
+    },
+    "paths": {
+        "/api": {},
+        "/api/alunos": {
+            "get": {
+                "summary": "Lista os alunos cadastrados",
+                "operationId": "0f2718d846fed6d46fc450893f321e96",
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        },
+        "/api/alunos{id}": {
+            "get": {
+                "summary": "Mostra os detalhes de um aluno",
+                "operationId": "b7f9c929b274c5f7249b2051b10d2173",
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        }
+    }
+}
